@@ -1,0 +1,10 @@
+<h2>Amazon detail purchases</h2>
+<ul>
+<% @email_array.each do |email| %>
+  <li><%= email[:date] %> <br>
+      <% email[:data].each do |element| %>
+        <%= element %> <br>
+      <%end %>
+  </li> <br>
+<% end %>
+</ul>
