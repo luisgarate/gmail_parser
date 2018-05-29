@@ -1,24 +1,13 @@
-# README
+# Simple Gmail parser
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Gmail parser, you need to have un your google mail account with at least 1 (one) successfull purchase in the Amazon site.
 
-Things you may want to cover:
+Run the server `railser server`
 
-* Ruby version
+Go to `localhost:3000` in your browser and click the link to sign in with ouath.
 
-* System dependencies
 
-* Configuration
+* Ruby version: `ruby 2.4.0p0`
+  
+* System dependencies: just run `bundle install`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
